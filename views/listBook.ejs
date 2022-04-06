@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="node-modules/rater-js/index.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Datar Buku</h1>
+    <ul>
+        <% if(result.length > 0) {%>
+            <%result.forEach(function(result) { %>
+            <br>
+            <li> Title : <strong><%=result.title%></strong></li>
+            <li> Author : <strong><%=result.author%></strong></li>
+            <li> Preview : <strong><%=result.preview%></strong></li>
+            <li> Rating : <strong><%=result.rating%></strong></li>
+            <% })%>
+        <% } else { %>
+            <li><p>Data kosong.</p></li>
+        <% } %>
+    </ul>
+</body>
+</html>
