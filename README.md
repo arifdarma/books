@@ -3,10 +3,14 @@
 URL : `http://localhost:3000/book/title/{param}`
 Response : All list book
 ## Save Wishlist
-URL : `http://localhost:3000/book/showWishList`
+URL : `http://localhost:3000/book/showWishList` <br>
 Response : Page with form `title, preview, ratings`
 
 #List API
+## Database
+varchar(255) `title`
+varchar(255) `preview`
+varchar(255) `userId`
 
 ## Query all books by parameter
 Url : `/books/title/:title`
