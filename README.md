@@ -1,3 +1,11 @@
+#List View
+## Show All Book By Parameter
+URL : `http://localhost:3000/book/title/{param}`
+Response : All list book
+## Save Wishlist
+URL : `http://localhost:3000/book/showWishList`
+Response : Page with form `title, preview, ratings`
+
 #List API
 
 ## Query all books by parameter
