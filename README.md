@@ -8,9 +8,9 @@ Response : Page with form `title, preview, ratings`
 
 #List API
 ## Database
-varchar(255) `title`
-varchar(255) `preview`
-varchar(255) `userId`
+varchar(255) `title` <br>
+varchar(255) `preview` <br>
+varchar(255) `userId` <br>
 
 ## Query all books by parameter
 Url : `/books/title/:title`
